@@ -1,0 +1,29 @@
+{
+  "name": "learnoz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --recursive test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/gsn-provider": "^0.1.10",
+    "@openzeppelin/network": "^0.4.2",
+    "web3": "^1.2.6"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.7.2",
+    "@openzeppelin/contracts": "^2.5.0",
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "@openzeppelin/gsn-helpers": "^0.2.3",
+    "@openzeppelin/test-environment": "^0.1.3",
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.9.1",
+    "mocha": "^7.1.1"
+  }
+}
